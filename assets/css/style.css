@@ -1,0 +1,151 @@
+
+body{
+    background-color:#4aaaa5;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+
+#bodyArea{
+    position: fixed;
+    background-color:#dddddd;
+    margin-top: 65px;
+    width: 100%;
+    left:0;
+    bottom: 10;
+    height: 460px;
+
+}
+
+#mainContent{
+    background-color:#ffffff;
+    position: fixed;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid #cccccc;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 350px;
+    width: 960px;
+    padding: 10px;
+    overflow: auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+
+}
+
+footer{
+    position: fixed;
+    right: 0;
+    width: 100%;
+    height: 37px;
+    border: 2px solid #cccccc;
+    background-color: #666666;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+/* h2 font styling */
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+}
+
+#profilePic{
+    height: 150px;
+    width: 150px;
+    float: left ;
+    padding: 15px;
+}
+
+#headingMyName{
+    background-color: #4aaaa5;
+    width: 13%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    margin-left: 150px;
+    color: white;
+    padding:10px;
+}
+
+#navLinks{
+    float: right;
+    margin-right: 150px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Anchors on Nav bar removing the underline */
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+form{
+    padding: 10px;
+    /* margin-left: 20px; */
+
+}
+/* size of input field in forms */
+.formInput{
+    width: 95%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* Height of message box in form */
+#message{
+    height: 80px;
+}
+
+/* Submit Button styling */
+#submitButton{
+    background-color: #4aaaa5;
+    height: 25px;
+    width: 70px;
+    color: white;
+}
+
+/* Sizing Portfolio pics
+#portfolioPic{
+    height: 200px;
+    width: 200px;
+    float: left ;
+    padding: 17px;
+}
+
+/* Gallary Styling */
+/* .gallary{
+    margin-right: 20px; */
+} */
+
+.gallary {
+    position: relative;
+    color: white;
+   
+}
+
+
+
+.centered {
+    /* position: absolute; */
+    top: 75%;
+    left: 11.3%; 
+    transform: translate(-50%, -50%);
+    background-color : red;
+    width: 20.4%;
+    text-align: center;
+    background-color: #4aaaa5;
+
+}
